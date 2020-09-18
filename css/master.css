@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+body {
+  font-family: 'Syne', sans-serif;
+}
+h1, h2,{
+  color: white;
+}
+
+*
+{
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  background-color: #000000;
+}
+
+.gryf-container {
+  width: 100%;
+  background-color: #791E23;
+}
+
+.slyth-container {
+  width: 100%;
+  background-color: #245C3F;
+}
+
+.rav-container {
+  width: 100%;
+  background-color: #213250;
+}
+
+.huff-container {
+  width: 100%;
+  background-color: #B58E53;
+}
+
+.navigation {
+  width: 85%;
+  margin-bottom: 20px;
+}
+
+.nav-item {
+  display: inline-block;
+  width: 8%;
+  text-align: center;
+  color: white;
+  font-family: 'Niconne', cursive;
+  font-size: 20pt;
+  letter-spacing: .5pt;
+  margin-left: 20px;
+}
+
+.red-item:hover {
+  background-color: #791E23;
+}
+
+.blue-item:hover {
+  background-color: #213250;
+}
+
+.green-item:hover {
+  background-color: #245C3F;
+}
+
+.yellow-item:hover {
+  background-color: #B58E53;
+}
+
+.icon-width {
+  width: 80%;
+  margin-top: 20%;
+  margin-left: 50px;
+}
+
+.square-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.square-image:hover {
+  opacity: 0.5;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 20%;
+  margin: 1%;
+}
+
+.menu-title {
+  text-align: center;
+  color: white;
+  font-family: 'Niconne', cursive;
+  font-size: 25pt;
+  letter-spacing: 1pt;
+  margin: 10pt;
+}
+
+.main-img {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+.text-column {
+  font-family: 'Niconne', serif;
+  font-size: 40pt;
+  margin-bottom: 2px;
+}
+
+.gryftext {
+  color: #E9C369;
+}
+
+.ravtext {
+  color: #E9B98C;
+}
+
+.slytext {
+  color: #B7B8B7;
+}
+
+.emblem {
+  flex: 30%;
+  margin-left: 2%;
+  margin-right: 4%;
+  margin-top: 8pt;
+}
+
+.info {
+  flex: 70%;
+  margin-left: 90px;
+  margin-right: 2%;
+  margin-top: 12pt;
+}
+
+.information {
+  font-family: 'Merriweather' , serif;
+  font-size: 18pt;
+  line-height: 30pt;
+  margin-top: 10pt;
+  margin-bottom: 10pt;
+}
+
+.title {
+  font-size: 60pt;
+}
+
+.gif-width {
+  width: 400px;
+}
